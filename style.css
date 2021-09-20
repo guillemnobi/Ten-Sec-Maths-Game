@@ -1,0 +1,66 @@
+body {
+  background-image: url(images/wallpaper.jpg);
+  font-family: 'Courier New', Courier, monospace;
+  background-size: 100%;
+  background-position: top;
+  text-align: center;
+  display: block;
+
+}
+
+.timer {
+  display: flex;
+  justify-content: center;  
+}
+
+.timer h3 {
+  font-size:2rem;
+  color: black;
+}
+
+h2 {
+  font-weight: bold;
+  border: 1px solid green;
+  padding: 10px;
+}
+
+.buttons {
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.buttons *{
+  border-radius: 20%;
+  font-weight: bold;
+  display: block;
+  margin: 5px;
+  padding: 20px;
+}
+
+.buttons *:hover{
+  border-radius: 20%;
+  color: white;
+  background-color: rgb(0, 68, 255);
+  }
+
+.inputDiv {
+  padding-left: 25%;
+  padding-right: 25%;
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+ }
+
+.inputDiv #etiqueta {
+  padding-right: 10px;
+  }
+
+#equation {
+  font-size: 8rem;
+}
